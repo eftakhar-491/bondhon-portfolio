@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Md Eftakharul Islam Khan</title>
+        <title>Md Hafizur Alam Shikder</title>
       </Helmet>
       <Hero />
       <QualityWork />
