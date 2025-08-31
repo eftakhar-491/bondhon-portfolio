@@ -37,7 +37,7 @@ export default function Hero() {
               focussed solutions that connect billions of people
             </p>
             <div className="items-center flex gap-4 mt-6">
-              <Link
+              {/* <Link
                 target="_blank"
                 to={
                   "https://drive.google.com/file/d/1EwdL-gI1sHILFVjrOfYskTs7unV4HO6s/view?usp=sharing"
@@ -60,9 +60,9 @@ export default function Hero() {
                   </svg>{" "}
                   <span>Download CV</span>
                 </button>
-              </Link>
+              </Link> */}
 
-              <div className="flex items-center gap-2 py-[6px] ">
+              {/* <div className="flex items-center gap-2 py-[6px] ">
                 <Link
                   target="_blank"
                   to={"https://www.linkedin.com/in/eftakhar-islam/"}
@@ -84,7 +84,7 @@ export default function Hero() {
                     <FaFacebookF />
                   </div>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="md:w-1/2 mt-8 lg:mt-0">

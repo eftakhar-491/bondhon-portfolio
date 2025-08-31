@@ -80,7 +80,7 @@ export default function Contact() {
 
               <div>
                 <h4 className="text-lg font-Bela">Phone</h4>
-                <p className="text-xl font-Bela -mt-2">+880 17202 33950</p>
+                <p className="text-xl font-Bela -mt-2">+880 1609 880916</p>
               </div>
             </div>
             <div className="flex mb-5 gap-5 items-center">

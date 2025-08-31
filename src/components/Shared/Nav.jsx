@@ -27,11 +27,12 @@ export default function Nav() {
           <h1 className="font-semibold flex items-center gap-3">
             {" "}
             <span className="text-2xl shrink-0 font-Rubik">
-              <img className="h-[36px] md:h-[50px]" src={signeture} alt="" />
+              {/* <img className="h-[36px] md:h-[50px]" src={signeture} alt="" /> */}
+              H.
             </span>{" "}
           </h1>
           <span className="cursor-pointer lg:hidden flex items-center gap-2">
-            <Link
+            {/* <Link
               target="_blank"
               to="https://drive.google.com/file/d/1EwdL-gI1sHILFVjrOfYskTs7unV4HO6s/view?usp=sharing"
             >
@@ -52,7 +53,7 @@ export default function Nav() {
                 </svg>{" "}
                 Download CV
               </button>
-            </Link>
+            </Link> */}
             <span onClick={() => setMenu((p) => !p)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +126,7 @@ export default function Nav() {
             <NavLink to={pathname === "/" ? "#about" : "/#about"}>
               <li>About me</li>
             </NavLink>
-            <Link
+            {/* <Link
               target="_blank"
               to="https://drive.google.com/file/d/1EwdL-gI1sHILFVjrOfYskTs7unV4HO6s/view?usp=sharing"
             >
@@ -146,7 +147,7 @@ export default function Nav() {
                 </svg>{" "}
                 Download CV
               </button>
-            </Link>
+            </Link> */}
           </ul>
         </div>
       </nav>

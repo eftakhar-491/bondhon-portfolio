@@ -7,12 +7,12 @@ export default function Footer() {
     <>
       <footer className="pt-16 text-white">
         <div>
-          <img className="max-w-[300px] mx-auto" src="/fav.png" alt="" />
-          <img
+          {/* <img className="max-w-[300px] mx-auto" src="/fav.png" alt="" /> */}
+          {/* <img
             className="max-w-[250px] md:max-w-[300px] mx-auto"
             src={sign}
             alt=""
-          />
+          /> */}
 
           <ul className="flex flex-col md:flex-row items-center justify-center gap-4 my-5">
             <NavLink to="/">
@@ -38,7 +38,7 @@ export default function Footer() {
           <hr className="border-p/20" />
           <p className="py-5 text-sm text-center text-gray-400">
             &#169; 2025 All rights reserved by
-            <span className="text-white ml-1">@Eftakharul Islam</span>
+            <span className="text-white ml-1">@Hafizul Alam</span>
           </p>
         </div>
       </footer>
